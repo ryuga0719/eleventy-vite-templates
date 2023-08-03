@@ -1,0 +1,63 @@
+{
+  "cSpell.enabled": true,
+  "cSpell.words": [
+    "stylelint",
+  ],
+  "cSpell.ignorePaths": [
+    "**/node_modules/*/**",
+    "**/.vscode/**",
+    "*.json",
+  ],
+  "cSpell.ignoreRegExpList": [
+    "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"
+  ],
+  "files.associations": {
+    "*.njk": "html"
+  },
+  "emmet.includeLanguages": {
+    "njk": "html"
+  },
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true,
+    "source.fixAll.eslint": true
+  },
+  "importSorter.generalConfiguration.sortOnBeforeSave": false,
+  "search.exclude": {
+    "/node_modules": true
+  },
+  "stylelint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "stylelint.validate": [
+    "html",
+    "css",
+    "scss",
+  ],
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#ffffff",
+      "backgroundColor": "green",
+      "overviewRulerColor": "grey"
+    }
+  ],
+  "todohighlight.keywordsPattern": "TODO:|FIXME:|HACK:|NOTE:"
+}
